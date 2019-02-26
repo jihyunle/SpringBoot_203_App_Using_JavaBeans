@@ -27,7 +27,8 @@ public class Employee {
     }
 
     public String getSsn() {
-        return ssn.substring(0,3) + "-" + ssn.substring(3,5) + "-" + ssn.substring(5);
+        return ssn;
+//        return ssn.substring(0,3) + "-" + ssn.substring(3,5) + "-" + ssn.substring(5);
     }
 
     public void setSsn(String ssn) {
